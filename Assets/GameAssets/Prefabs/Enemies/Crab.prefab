@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 10
-  movementDuration: 2
+  movementDuration: 0.3
   enemyGraphic: {fileID: 3998679837195449086}
 --- !u!1 &3998679837195449086
 GameObject:
@@ -212,7 +212,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyMaxHealth: 5
   enemyDeathFX: {fileID: 4897810788968544632, guid: 6ae07711db7230347b4804de3a48c65f, type: 3}
-  enemyHitFX: {fileID: 2190202833714076124, guid: a25b552eb87ab3745869056edc4d6a4b, type: 3}
 --- !u!114 &3998679837195449080
 MonoBehaviour:
   m_ObjectHideFlags: 0

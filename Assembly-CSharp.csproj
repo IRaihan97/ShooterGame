@@ -59,11 +59,19 @@
     <Compile Include="Assets\GameAssets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\GameAssets\Scripts\Enemies\EnemyController.cs" />
     <Compile Include="Assets\GameAssets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\GameAssets\Scripts\Cleaner.cs" />
     <Compile Include="Assets\GameAssets\Scripts\Enemies\EnemyDamage.cs" />
     <Compile Include="Assets\GameAssets\Scripts\DestroyMe.cs" />
     <Compile Include="Assets\GameAssets\Scripts\Player\Hit.cs" />
     <Compile Include="Assets\GameAssets\Scripts\RestartGame.cs" />
-    <Compile Include="Assets\GameAssets\Scripts\Cleaner.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Scripts\Utilities\CameraUtilities.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Demo\Sample Scripts\ShakeByDistance.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShakePresets.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Demo\Sample Scripts\ShakeOnTrigger.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShaker.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShakeInstance.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Demo\ShakeDemo.cs" />
+    <Compile Include="Assets\EZ Camera Shake\Demo\Sample Scripts\ShakeOnKeyPress.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

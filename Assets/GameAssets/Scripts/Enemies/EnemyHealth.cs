@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -29,13 +30,18 @@ public class EnemyHealth : MonoBehaviour
 
     public void addDamage(float damage)
     {
+        if (currentHealth > 0)
+        {
+            
+            currentHealth -= damage;
+            CameraShaker.Instance.ShakeOnce(4f, 5f, 0.5f, .1f);
+        }
         
-        currentHealth -= damage;
         
 
         if (currentHealth <= 0)
         {
-            
+            CameraShaker.Instance.ShakeOnce(10f, 10f, .1f, 1.1f);
             makeDead();
         }
     }

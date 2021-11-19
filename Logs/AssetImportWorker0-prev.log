@@ -15,11 +15,11 @@ C:/Users/tsuna/Documents/Unity Projects/CS3005Assignment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53268
+62539
 Successfully changed project path to: C:/Users/tsuna/Documents/Unity Projects/CS3005Assignment
 C:/Users/tsuna/Documents/Unity Projects/CS3005Assignment
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 158.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007447 seconds.
+Registered in 0.002198 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 142.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 147.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.011 seconds
+- Completed reload, in  2.390 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5012ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (2390ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1216ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (480ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009449 seconds.
+Registered in 0.003767 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 143.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.050 seconds
+- Completed reload, in  1.420 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3052ms)
-		BeginReloadAssembly (378ms)
+	ReloadAssembly (1421ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (2512ms)
-			LoadAssemblies (236ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1174ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (768ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (1071ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (468ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (225ms)
-				ProcessInitializeOnLoadAttributes (624ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.8 MB.
-System memory in use after: 93.8 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 13.017700 ms (FindLiveObjects: 0.784900 ms CreateObjectMapping: 0.422000 ms MarkObjects: 11.587100 ms  DeleteObjects: 0.218600 ms)
+Total: 3.631400 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.099900 ms MarkObjects: 3.234200 ms  DeleteObjects: 0.080300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,417 +134,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/GameAssets/Mountain Level Assets/sea_28.asset
-  artifactKey: Guid(312d865ad0f9030429006c162c91bfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_28.asset using Guid(312d865ad0f9030429006c162c91bfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a43b363ddace2f9c071f71ea89bb3a4') in 0.390769 seconds 
-  Import took 0.406471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000736 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_14.asset
-  artifactKey: Guid(8e716ace93c28424ca18cb4e692b7592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_14.asset using Guid(8e716ace93c28424ca18cb4e692b7592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6181757135e45119b35ac9add6a065c4') in 0.052445 seconds 
-  Import took 0.067589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000706 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_27.asset
-  artifactKey: Guid(eda3a6b3a830fca4d88de8b798f6cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_27.asset using Guid(eda3a6b3a830fca4d88de8b798f6cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae78271ea6897bf53111b7faf69d2955') in 0.043790 seconds 
-  Import took 0.056045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000699 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_33.asset
-  artifactKey: Guid(c7923bae3c8399645a017c2d243c1a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_33.asset using Guid(c7923bae3c8399645a017c2d243c1a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad6f42b15471d9582061b9f6efff426') in 0.037167 seconds 
-  Import took 0.048522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000717 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_16.asset
-  artifactKey: Guid(d208fe89a7b12574abbf35ce1ff4d932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_16.asset using Guid(d208fe89a7b12574abbf35ce1ff4d932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1aa2356361f9ae001de4bf123c3175') in 0.035987 seconds 
-  Import took 0.046721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000709 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_24.asset
-  artifactKey: Guid(e72ce51ab57260e4785e7663e75bdabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_24.asset using Guid(e72ce51ab57260e4785e7663e75bdabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af4add8a70389f1ca148ddafbc44d98') in 0.038399 seconds 
-  Import took 0.050173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000771 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_9.asset
-  artifactKey: Guid(fdc57d5fc6ddab4489a38390bebb6fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_9.asset using Guid(fdc57d5fc6ddab4489a38390bebb6fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6900c5734f0514c6704ab1cba5869a') in 0.039211 seconds 
-  Import took 0.048910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000715 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_37.asset
-  artifactKey: Guid(4f4d45f550018294cbf3645a10f5ff5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_37.asset using Guid(4f4d45f550018294cbf3645a10f5ff5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c26bff0433364f0051c1c5a1a076753') in 0.023537 seconds 
-  Import took 0.030830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Mountain.prefab
-  artifactKey: Guid(9dfdf657125b2864faa9a80f3e73e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Mountain.prefab using Guid(9dfdf657125b2864faa9a80f3e73e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b6079a399e4e5508decf3fa4623910') in 0.140128 seconds 
-  Import took 0.150065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_30.asset
-  artifactKey: Guid(76a6a89c54ea93e42a18fa1bb94ce640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_30.asset using Guid(76a6a89c54ea93e42a18fa1bb94ce640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fac4ca07a9df96433c98bf1a1aa960') in 0.024616 seconds 
-  Import took 0.032978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_25.asset
-  artifactKey: Guid(651995f92a72dd449b846b44fb87d36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_25.asset using Guid(651995f92a72dd449b846b44fb87d36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75610ca2ed8fb1b7192357b273bc8694') in 0.025932 seconds 
-  Import took 0.035633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_34.asset
-  artifactKey: Guid(eb5aa7b02a6d57846a61d579b26c7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_34.asset using Guid(eb5aa7b02a6d57846a61d579b26c7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd604fcea20796d0ad0e6816a912a3d') in 0.027264 seconds 
-  Import took 0.082272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000709 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_11.asset
-  artifactKey: Guid(2d0e95f6c79efa640a0fbb3bbf0f8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_11.asset using Guid(2d0e95f6c79efa640a0fbb3bbf0f8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88835736ad19d6ad9b7136dfa83cfb25') in 0.058120 seconds 
-  Import took 0.072662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000860 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_32.asset
-  artifactKey: Guid(edf6dbe46a4c5fa468b9e163cd7f1a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_32.asset using Guid(edf6dbe46a4c5fa468b9e163cd7f1a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d56b6d5a489c0a43bb603dd499277b') in 0.048371 seconds 
-  Import took 0.064900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000693 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_4.asset
-  artifactKey: Guid(f0975dc4d3394634fb30f007bfbd4450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_4.asset using Guid(f0975dc4d3394634fb30f007bfbd4450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab2e3f224ed86b8ee4180a569973341') in 0.047456 seconds 
-  Import took 0.062964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000769 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_20.asset
-  artifactKey: Guid(0a964645b79d40444b4ef0199c911926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_20.asset using Guid(0a964645b79d40444b4ef0199c911926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fe9b599d3fca3c687f00048d8f1572') in 0.048538 seconds 
-  Import took 0.063389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000773 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_31.asset
-  artifactKey: Guid(d12fe7a5cadb594439a6cedda195e382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_31.asset using Guid(d12fe7a5cadb594439a6cedda195e382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41019ad3f14549b8b06e4a743da84d97') in 0.044394 seconds 
-  Import took 0.057770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000735 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_35.asset
-  artifactKey: Guid(696bbecf846362e49967f0636ca18f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_35.asset using Guid(696bbecf846362e49967f0636ca18f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381db8881e6b4c7d5c16fa76c67ef876') in 0.092341 seconds 
-  Import took 0.107514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000839 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_7.asset
-  artifactKey: Guid(3881a84e549a5514097726b88f7130ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_7.asset using Guid(3881a84e549a5514097726b88f7130ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78006f25413669810090a151e730a54') in 0.042550 seconds 
-  Import took 0.059138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000671 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_39.asset
-  artifactKey: Guid(394f5084a0681294484d59331f1ba22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_39.asset using Guid(394f5084a0681294484d59331f1ba22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4a77593a381123bb6dc30b2b931ddc') in 0.052939 seconds 
-  Import took 0.069296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_18.asset
-  artifactKey: Guid(2289ada8785c85a48afe519cc610239f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_18.asset using Guid(2289ada8785c85a48afe519cc610239f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde00ac7f2ea8755815b054b6cae9453') in 0.078948 seconds 
-  Import took 0.092263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000696 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_10.asset
-  artifactKey: Guid(ed391d745abeba2458bf9fbccacf776d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_10.asset using Guid(ed391d745abeba2458bf9fbccacf776d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6700a27e5d55f345ab3696fa2a4b5bec') in 0.043329 seconds 
-  Import took 0.055224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_22.asset
-  artifactKey: Guid(d7c5eca9578ac164d8ec91f497cee041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_22.asset using Guid(d7c5eca9578ac164d8ec91f497cee041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88efea29abd065af35d83165c468a2fb') in 0.040832 seconds 
-  Import took 0.056279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000783 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_6.asset
-  artifactKey: Guid(54a075bd9b410524c928d690d95e3d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_6.asset using Guid(54a075bd9b410524c928d690d95e3d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca74a10b873dbba144431c40ea456f3') in 0.049655 seconds 
-  Import took 0.064584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000881 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_8.asset
-  artifactKey: Guid(fe8a4b837d2f40d45a0ef30307a8bd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_8.asset using Guid(fe8a4b837d2f40d45a0ef30307a8bd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfa37a74da9a772520ec917e73883f8') in 0.045677 seconds 
-  Import took 0.059930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_13.asset
-  artifactKey: Guid(bd993e7684b854e43ad2063d7467da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_13.asset using Guid(bd993e7684b854e43ad2063d7467da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ba802ab9423d063b94c79da986d7d3') in 0.044706 seconds 
-  Import took 0.058549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000835 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_5.asset
-  artifactKey: Guid(947b52d8184d68847885ce35363856fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_5.asset using Guid(947b52d8184d68847885ce35363856fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fc6cc53c784ad229ab42b93382ffb7') in 0.050014 seconds 
-  Import took 0.066196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000807 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_36.asset
-  artifactKey: Guid(1f851f23f9f6b8941b74d093fd0ea6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_36.asset using Guid(1f851f23f9f6b8941b74d093fd0ea6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db9c1115034e998010f9e675858ccfb') in 0.051663 seconds 
-  Import took 0.068895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000751 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_21.asset
-  artifactKey: Guid(8d568833f1a6f8249b7f0a4b3eb9446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_21.asset using Guid(8d568833f1a6f8249b7f0a4b3eb9446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeafd03ab417a638b2721b4db34e20a7') in 0.046528 seconds 
-  Import took 0.063391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000767 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_29.asset
-  artifactKey: Guid(48fdc890f9a2343448f04d7008122dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_29.asset using Guid(48fdc890f9a2343448f04d7008122dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac7977cdf3d42761478d410cc812164') in 0.052053 seconds 
-  Import took 0.068156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000785 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_41.asset
-  artifactKey: Guid(c14868bc645f0534f8942cf348599858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_41.asset using Guid(c14868bc645f0534f8942cf348599858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4ee9c09127ff70aadd1e24d812057f') in 0.050484 seconds 
-  Import took 0.066322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000826 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_15.asset
-  artifactKey: Guid(9b49f28ca3d626a418bb82e16375e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_15.asset using Guid(9b49f28ca3d626a418bb82e16375e619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46eb74fa571384d3d8c6d66ae565d95') in 0.053247 seconds 
-  Import took 0.070231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000785 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_3.asset
-  artifactKey: Guid(d9942bd543897e54493a46fa045fde9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_3.asset using Guid(d9942bd543897e54493a46fa045fde9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8564d4645ddc9aabcaa1fc985d8f5606') in 0.052321 seconds 
-  Import took 0.068842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000807 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_12.asset
-  artifactKey: Guid(55ea9fdd5b6b0b2468ba4ebf3ee33c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_12.asset using Guid(55ea9fdd5b6b0b2468ba4ebf3ee33c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdee9fe6b0f65b5e65e57119ac27e5c') in 0.055106 seconds 
-  Import took 0.069348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000863 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_1.asset
-  artifactKey: Guid(18d0e3cf6aad7e747bbf61455aea0617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_1.asset using Guid(18d0e3cf6aad7e747bbf61455aea0617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd476528130cedc65f8ccfbea3c6e1214') in 0.053339 seconds 
-  Import took 0.069039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000762 seconds.
-  path: Assets/GameAssets/Mountain Level Assets
-  artifactKey: Guid(bdc21d173ea67504da92f59c7d7de8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets using Guid(bdc21d173ea67504da92f59c7d7de8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b976b4971975c14dab213453e5408a') in 0.031205 seconds 
-  Import took 0.043994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000901 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_19.asset
-  artifactKey: Guid(f3e8fae91e724e24e835d6cdf85a2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_19.asset using Guid(f3e8fae91e724e24e835d6cdf85a2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3d5c6dcba87c07f6022095e002f765') in 0.048703 seconds 
-  Import took 0.061413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000767 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_0.asset
-  artifactKey: Guid(fd93532eeeeb33e4085b01950ff6a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_0.asset using Guid(fd93532eeeeb33e4085b01950ff6a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934805972746bd7efa5fe4ed8bea05e7') in 0.046196 seconds 
-  Import took 0.058729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000783 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_26.asset
-  artifactKey: Guid(9192ac6684d39814c85bbdeb4aa1bd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_26.asset using Guid(9192ac6684d39814c85bbdeb4aa1bd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b873ee2f1474227b7518c24f91041b6a') in 0.042738 seconds 
-  Import took 0.058118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000836 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_2.asset
-  artifactKey: Guid(d36bafc9863ad58429e4a27cc774487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_2.asset using Guid(d36bafc9863ad58429e4a27cc774487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10ce0ab09c40ced4466948ce3b6623') in 0.049733 seconds 
-  Import took 0.064089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000868 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_23.asset
-  artifactKey: Guid(07c9ee183b547a643ade42aa7637ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_23.asset using Guid(07c9ee183b547a643ade42aa7637ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758e5640203ea0c53acc7ad5093a807f') in 0.044174 seconds 
-  Import took 0.058923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000886 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_40.asset
-  artifactKey: Guid(41262c7b920c57d41bc15b0bf9c782f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_40.asset using Guid(41262c7b920c57d41bc15b0bf9c782f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0908168871be95aa89d6efb5c9b70c6') in 0.041868 seconds 
-  Import took 0.056124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000795 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_17.asset
-  artifactKey: Guid(829c78b125f47c744ba575bddb773ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_17.asset using Guid(829c78b125f47c744ba575bddb773ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de514c093a4a1adbb9634da40a8c87ba') in 0.054730 seconds 
-  Import took 0.071218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000906 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/sea_38.asset
-  artifactKey: Guid(76738edbcbd3511458e89520d57d35ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/sea_38.asset using Guid(76738edbcbd3511458e89520d57d35ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb4ad2b7e1b0cf9b8d3489316a0c047') in 0.052990 seconds 
-  Import took 0.070918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.753916 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/TilePalette
-  artifactKey: Guid(f16d4a264e738084d9d4743d7c6d94d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/TilePalette using Guid(f16d4a264e738084d9d4743d7c6d94d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ede274c8bcd295122df3012047af39') in 0.024411 seconds 
-  Import took 0.036639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.372746 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles
-  artifactKey: Guid(7281b1e2b70692042905bb106378f3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles using Guid(7281b1e2b70692042905bb106378f3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e153dd7a9d1fe4b59eccc83e332c08') in 0.067245 seconds 
-  Import took 0.080343 seconds .
+  path: Assets/Scenes/LV3.unity
+  artifactKey: Guid(9411baa84a744694c947ac6ca9999a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LV3.unity using Guid(9411baa84a744694c947ac6ca9999a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bc504793e2d475ae1a6020f68e44b6') in 0.019802 seconds 
+  Import took 0.023970 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005139 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.990 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1991ms)
-		BeginReloadAssembly (220ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1646ms)
-			LoadAssemblies (179ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (511ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (648ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (453ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (37ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.2 MB.
+System memory in use after: 54.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2557.
-Total: 5.720300 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.150100 ms MarkObjects: 5.215100 ms  DeleteObjects: 0.033300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 3.355800 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.079100 ms MarkObjects: 3.077500 ms  DeleteObjects: 0.013900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -559,171 +163,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003510 seconds.
+Registered in 0.003110 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.184 seconds
+- Completed reload, in  1.185 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1185ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (389ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 3.190200 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.070600 ms MarkObjects: 2.849700 ms  DeleteObjects: 0.056400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1755.277051 seconds.
-  path: Assets/Scenes/LV2.unity
-  artifactKey: Guid(41fa46d2873da3a4a8c52a2a33859231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LV2.unity using Guid(41fa46d2873da3a4a8c52a2a33859231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c951c62fc64a6944cf1a661d279ab6c1') in 0.023946 seconds 
-  Import took 0.029674 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003368 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1176ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (992ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (400ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2563.
-Total: 3.260500 ms (FindLiveObjects: 0.212900 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.943400 ms  DeleteObjects: 0.017100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003295 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1105ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (916ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (987ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (319ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (355ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (398ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (237ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (285ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2566.
-Total: 5.485000 ms (FindLiveObjects: 0.641300 ms CreateObjectMapping: 0.201700 ms MarkObjects: 4.616300 ms  DeleteObjects: 0.024200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 3.878800 ms (FindLiveObjects: 0.230100 ms CreateObjectMapping: 0.100400 ms MarkObjects: 3.525400 ms  DeleteObjects: 0.021400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -736,1204 +218,165 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 185.270659 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_0.asset
-  artifactKey: Guid(f5a4775c659d3e14992979a3b53a3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_0.asset using Guid(f5a4775c659d3e14992979a3b53a3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebba76ee73154c3c0a398df4e738381') in 0.050214 seconds 
-  Import took 0.062605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_1.asset
-  artifactKey: Guid(5650e1799dc6fc74297ad95953d3a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_1.asset using Guid(5650e1799dc6fc74297ad95953d3a399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a753a5b282d5c299b431f3af67bf674') in 0.017285 seconds 
-  Import took 0.021056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_2.asset
-  artifactKey: Guid(7f647efe2752d864a91c260580326ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_2.asset using Guid(7f647efe2752d864a91c260580326ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf36da2e45501d8afdb17e3e2eb9288') in 0.019117 seconds 
-  Import took 0.026463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.452036 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_3.asset
-  artifactKey: Guid(158497ff5e6b8ae4a9d8b77b13126b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_3.asset using Guid(158497ff5e6b8ae4a9d8b77b13126b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbd353aa3a00f1a93ed9154283bc3e1') in 0.018516 seconds 
-  Import took 0.023330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_6.asset
-  artifactKey: Guid(6c4e486ce0c386446866cf7b3c2671db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_6.asset using Guid(6c4e486ce0c386446866cf7b3c2671db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce4bc60cabf953b22a5147d4ccf6776') in 0.025305 seconds 
-  Import took 0.031214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_10.asset
-  artifactKey: Guid(e87d5892caa26ec42af2f0be5840698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_10.asset using Guid(e87d5892caa26ec42af2f0be5840698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df14a1563daeefbdf3a20b43d3d9e9a') in 0.025672 seconds 
-  Import took 0.030818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_26.asset
-  artifactKey: Guid(3fefa168685c2aa44b1f749148468c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_26.asset using Guid(3fefa168685c2aa44b1f749148468c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175dea49c1aa17f652a1f882fc3ceff') in 0.018104 seconds 
-  Import took 0.025670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_35.asset
-  artifactKey: Guid(886903b8de55fbd46a2d774cde415cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_35.asset using Guid(886903b8de55fbd46a2d774cde415cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752b013c69c5d3d523a55020cdf758e1') in 0.022758 seconds 
-  Import took 0.028757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_21.asset
-  artifactKey: Guid(33690d57979eff943b5389988d6da1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_21.asset using Guid(33690d57979eff943b5389988d6da1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc68593391840df8066b8ed62932f2b') in 0.019218 seconds 
-  Import took 0.026540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_22.asset
-  artifactKey: Guid(b84239fd8e0ff4f47b762957bbe144b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_22.asset using Guid(b84239fd8e0ff4f47b762957bbe144b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba8387bdf36a2971cca5ec80fb45669') in 0.018652 seconds 
-  Import took 0.025453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_15.asset
-  artifactKey: Guid(c84a74949af0ecb4b8f0ececa0e179d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_15.asset using Guid(c84a74949af0ecb4b8f0ececa0e179d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8addc606248278ec6db7ce0e580d7abc') in 0.022056 seconds 
-  Import took 0.027382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_17.asset
-  artifactKey: Guid(3af528408e0a0d44f9c6c55dddf97ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_17.asset using Guid(3af528408e0a0d44f9c6c55dddf97ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9c628eb71b02516d4fa740b4b8c352') in 0.018281 seconds 
-  Import took 0.025087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_28.asset
-  artifactKey: Guid(ca8b98b0981984142937a8cb03ce6d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_28.asset using Guid(ca8b98b0981984142937a8cb03ce6d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3369d36aa120d1a80ec746173bf43') in 0.020037 seconds 
-  Import took 0.025108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_18.asset
-  artifactKey: Guid(7c01f0b6b204b124299fc7ad95db8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_18.asset using Guid(7c01f0b6b204b124299fc7ad95db8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254a43e68592a17ef7836555982a7570') in 0.021470 seconds 
-  Import took 0.028236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_12.asset
-  artifactKey: Guid(3b4f9296ebe38dc45af6cbe54dd5458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_12.asset using Guid(3b4f9296ebe38dc45af6cbe54dd5458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479e57f2e8f4a723c714a6b7e6a58cb4') in 0.017005 seconds 
-  Import took 0.023107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_11.asset
-  artifactKey: Guid(894dbdcf3ee5b0b49ae7458ff601f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_11.asset using Guid(894dbdcf3ee5b0b49ae7458ff601f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4a93ccf11b4e5c0ae5d76536f7550e') in 0.023893 seconds 
-  Import took 0.029610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000629 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_14.asset
-  artifactKey: Guid(3ad6969107b0e8c48b5593a01935fb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_14.asset using Guid(3ad6969107b0e8c48b5593a01935fb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731da47fbff02e8932f98ef332dd9ff7') in 0.015708 seconds 
-  Import took 0.022108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_74.asset
-  artifactKey: Guid(28bc883ab2a6afd40be3ef4f03891423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_74.asset using Guid(28bc883ab2a6afd40be3ef4f03891423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf2755e3a756e1773d5f9e1671271f7') in 0.021869 seconds 
-  Import took 0.027128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_53.asset
-  artifactKey: Guid(bb53c84d71aa5eb45a96c6b893c4ab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_53.asset using Guid(bb53c84d71aa5eb45a96c6b893c4ab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f98a6f3b348717ef61f363fb8a4517b') in 0.018832 seconds 
-  Import took 0.024905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_56.asset
-  artifactKey: Guid(828ee73be02d56d41a98b8bac9256dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_56.asset using Guid(828ee73be02d56d41a98b8bac9256dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3500970b564f011be6ecd8c1bfddc956') in 0.022596 seconds 
-  Import took 0.029921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_41.asset
-  artifactKey: Guid(862b992f1f46f5543990f7f0c63b0b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_41.asset using Guid(862b992f1f46f5543990f7f0c63b0b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fdc8bebb0f40dc6b2bce579bc83ab1') in 0.016769 seconds 
-  Import took 0.021895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_51.asset
-  artifactKey: Guid(0a5b4d2711794134b888916e02a60a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_51.asset using Guid(0a5b4d2711794134b888916e02a60a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26077e9d18557c8e1680005f1cd2395') in 0.021544 seconds 
-  Import took 0.027797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_65.asset
-  artifactKey: Guid(006b3fb67ecdbd246a25d53deb2120e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_65.asset using Guid(006b3fb67ecdbd246a25d53deb2120e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823c0c8ee0ae2483030027b493efd2e2') in 0.022545 seconds 
-  Import took 0.028752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000984 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_71.asset
-  artifactKey: Guid(c5a3d48c419be2f48ae78f1c37a97e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_71.asset using Guid(c5a3d48c419be2f48ae78f1c37a97e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a453dcf7d675becf8ae6c7349aa723') in 0.018559 seconds 
-  Import took 0.026993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_40.asset
-  artifactKey: Guid(e3e64aa42c1c166498eabc7e57a38c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_40.asset using Guid(e3e64aa42c1c166498eabc7e57a38c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2f38aa41f1eca54a66faffbf0bc4cc') in 0.021255 seconds 
-  Import took 0.027520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_52.asset
-  artifactKey: Guid(aa2e4f1abcebcd44ab335362823d82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_52.asset using Guid(aa2e4f1abcebcd44ab335362823d82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1684b3c87d556f7b1b541dd3ff58c8ef') in 0.024207 seconds 
-  Import took 0.032094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_62.asset
-  artifactKey: Guid(42ad4dd30df17344687257deb33ecf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_62.asset using Guid(42ad4dd30df17344687257deb33ecf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8923f5ff92912e5320e48a79abc9d622') in 0.020456 seconds 
-  Import took 0.027112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000983 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_70.asset
-  artifactKey: Guid(7b31ad97cae94164bae65b07edfd2497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_70.asset using Guid(7b31ad97cae94164bae65b07edfd2497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c766fa89a35c44aaf15fe23eefa65e') in 0.020334 seconds 
-  Import took 0.027010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_82.asset
-  artifactKey: Guid(19d441ca8aa536345bfe217b8c03ed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_82.asset using Guid(19d441ca8aa536345bfe217b8c03ed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876bbd573b12e7b3913356b4776aeec1') in 0.017415 seconds 
-  Import took 0.023225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_109.asset
-  artifactKey: Guid(75b95aec4cacd484c8b8e47998606a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_109.asset using Guid(75b95aec4cacd484c8b8e47998606a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c920a90e6d3acd8029059d0b65889d06') in 0.019860 seconds 
-  Import took 0.027206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_111.asset
-  artifactKey: Guid(fcb4a666252844c4391c96e1ccc6859a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_111.asset using Guid(fcb4a666252844c4391c96e1ccc6859a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de5cf9ab6146c36aaf09bb22aefe542') in 0.022552 seconds 
-  Import took 0.027650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_87.asset
-  artifactKey: Guid(81142438793b5314e9c0b5aacb5b6007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_87.asset using Guid(81142438793b5314e9c0b5aacb5b6007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feef5132a541dd30b5ccb8ed46b6d34b') in 0.019318 seconds 
-  Import took 0.025749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_96.asset
-  artifactKey: Guid(cadbf665043bce54f9ce5efbc0597020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_96.asset using Guid(cadbf665043bce54f9ce5efbc0597020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9712198e9aa9c3fca3f3f2428863a7') in 0.020385 seconds 
-  Import took 0.025105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_46.asset
-  artifactKey: Guid(1caa264c8e504ff46ae130574920f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_46.asset using Guid(1caa264c8e504ff46ae130574920f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a31134e2b21054a51232efe5fa8903') in 0.017782 seconds 
-  Import took 0.023278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_76.asset
-  artifactKey: Guid(048e7d56d7375a048bcdd559e8985ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_76.asset using Guid(048e7d56d7375a048bcdd559e8985ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73e760c2d802f24b0aa7de7f801af21') in 0.015752 seconds 
-  Import took 0.021413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_24.asset
-  artifactKey: Guid(9cf9f68497414474086f3d2abe04288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_24.asset using Guid(9cf9f68497414474086f3d2abe04288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0f306f5ed9c19032568e60ed001f77') in 0.017417 seconds 
-  Import took 0.022765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_39.asset
-  artifactKey: Guid(9a34c74fce951124283f6e89af603fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_39.asset using Guid(9a34c74fce951124283f6e89af603fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5df14220f994b095d76a1006e28d0df') in 0.017913 seconds 
-  Import took 0.024421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_45.asset
-  artifactKey: Guid(d6a95ee32e448a740b8c4132e39968ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_45.asset using Guid(d6a95ee32e448a740b8c4132e39968ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9eeabd5b7120f39311165bdc13a8a') in 0.017194 seconds 
-  Import took 0.023025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_84.asset
-  artifactKey: Guid(85442422c54ead74c90f346370bff73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_84.asset using Guid(85442422c54ead74c90f346370bff73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdaf4be018a659f60b2244ef752d3e0') in 0.021348 seconds 
-  Import took 0.026861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_86.asset
-  artifactKey: Guid(e9ef631e7f2980e45b2c5574a6bfd46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_86.asset using Guid(e9ef631e7f2980e45b2c5574a6bfd46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6b8c0e496a423f4fbedb8d6ed6fe87') in 0.017202 seconds 
-  Import took 0.022109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_121.asset
-  artifactKey: Guid(a128fd9067ef590478b834b9ec3235ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_121.asset using Guid(a128fd9067ef590478b834b9ec3235ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2018317e29023d4fb5421cc0ab1da640') in 0.019533 seconds 
-  Import took 0.026308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_118.asset
-  artifactKey: Guid(c76b6555b0d9f71428ec489a3bfc083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_118.asset using Guid(c76b6555b0d9f71428ec489a3bfc083a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3c860941ffc8919a79d019d048a5e4') in 0.016635 seconds 
-  Import took 0.023185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_128.asset
-  artifactKey: Guid(a4abfbe130099ee46b9cc78bd9d8b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_128.asset using Guid(a4abfbe130099ee46b9cc78bd9d8b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4db719ff313caa080b60551a9f38b6c') in 0.020233 seconds 
-  Import took 0.025757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_132.asset
-  artifactKey: Guid(1f9ce860c0b7cbf4792128c783550387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_132.asset using Guid(1f9ce860c0b7cbf4792128c783550387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990ba27118579f9bfde6fb53ce6fb6f9') in 0.019467 seconds 
-  Import took 0.024263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_125.asset
-  artifactKey: Guid(3ad0740345280204c882f660db9be7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_125.asset using Guid(3ad0740345280204c882f660db9be7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192c447c8082811167c6365830cf6f6f') in 0.024972 seconds 
-  Import took 0.030827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_115.asset
-  artifactKey: Guid(d8b9a1eaf113d3b4387c68756fcac7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_115.asset using Guid(d8b9a1eaf113d3b4387c68756fcac7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1992765367dba8c226c607a42d526a5a') in 0.017091 seconds 
-  Import took 0.024499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_127.asset
-  artifactKey: Guid(6d1c7e8e0de16c2438601ffeeb7e30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_127.asset using Guid(6d1c7e8e0de16c2438601ffeeb7e30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72de13867e9358802237a1f163f6a1f') in 0.018836 seconds 
-  Import took 0.023450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_116.asset
-  artifactKey: Guid(5388e9294d476ad43bb57415c4113321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_116.asset using Guid(5388e9294d476ad43bb57415c4113321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfa6e3e86b451c7bbf957dc12b9303e') in 0.020226 seconds 
-  Import took 0.026755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_122.asset
-  artifactKey: Guid(a6180e2812d222a4dbfa0929dab12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_122.asset using Guid(a6180e2812d222a4dbfa0929dab12b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627c727902605f1f2c4c015cabc4a152') in 0.017823 seconds 
-  Import took 0.023071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_55.asset
-  artifactKey: Guid(1bfc53714f8e5784bb7e4f9942e1a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_55.asset using Guid(1bfc53714f8e5784bb7e4f9942e1a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e1bbd6344aebb01f443ff11516b76f') in 0.016443 seconds 
-  Import took 0.021862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_89.asset
-  artifactKey: Guid(b0831f764b8a73d43abf3810d224315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_89.asset using Guid(b0831f764b8a73d43abf3810d224315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f68fc0c677b6169c4b965fff2ce758') in 0.018833 seconds 
-  Import took 0.026024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_93.asset
-  artifactKey: Guid(bcb942ff3b3abbc4bb884e8f7b4bb090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_93.asset using Guid(bcb942ff3b3abbc4bb884e8f7b4bb090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac30b5f6d796f1b1e57691835de40fa5') in 0.023427 seconds 
-  Import took 0.028971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_4.asset
-  artifactKey: Guid(20eda73981921ee40be8fcb50646252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_4.asset using Guid(20eda73981921ee40be8fcb50646252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b5b988ef96b1f1582d8f387eab7c44') in 0.016087 seconds 
-  Import took 0.020919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_129.asset
-  artifactKey: Guid(d7305053430acad42a07898cb8e2ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_129.asset using Guid(d7305053430acad42a07898cb8e2ecbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f3c0493f12d3b8c77c05bbbcb3dd47') in 0.019434 seconds 
-  Import took 0.025214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_44.asset
-  artifactKey: Guid(3089db75ac83b21469e984f70936b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_44.asset using Guid(3089db75ac83b21469e984f70936b15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c8de355c2ed59247d34cffcdb83f64') in 0.016066 seconds 
-  Import took 0.021629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_77.asset
-  artifactKey: Guid(3119f402f9e1ffc4a9bb9633bf46955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_77.asset using Guid(3119f402f9e1ffc4a9bb9633bf46955a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05eab581882cb10f97bba326cf61fac') in 0.018520 seconds 
-  Import took 0.023158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_29.asset
-  artifactKey: Guid(1b81d259ae55c164d9ca89e2b6ee3e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_29.asset using Guid(1b81d259ae55c164d9ca89e2b6ee3e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a050e08b7611cd481f58f8d65f1822f1') in 0.017587 seconds 
-  Import took 0.025922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_73.asset
-  artifactKey: Guid(33fadbcc163ffa74da9f696642fdfc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_73.asset using Guid(33fadbcc163ffa74da9f696642fdfc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c8515b336b39ea7af34a0693df49a0') in 0.022441 seconds 
-  Import took 0.029633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_112.asset
-  artifactKey: Guid(462b111138102c54e880ad4b5446faf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_112.asset using Guid(462b111138102c54e880ad4b5446faf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ab84551d7609be480ea7c3ed81574') in 0.022412 seconds 
-  Import took 0.030097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_68.asset
-  artifactKey: Guid(e53c18e9058039e4492a9848ff33c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_68.asset using Guid(e53c18e9058039e4492a9848ff33c041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3228e2d7212d3012b4cc89c68654748') in 0.021781 seconds 
-  Import took 0.028552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_64.asset
-  artifactKey: Guid(b2585d11367c5b04f9ee229c36b62d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_64.asset using Guid(b2585d11367c5b04f9ee229c36b62d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3255f9ed679329bc24ed1ed7a3a56ed5') in 0.018832 seconds 
-  Import took 0.025396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_91.asset
-  artifactKey: Guid(84c57a6e8c3aae843bccaa642b6a805b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_91.asset using Guid(84c57a6e8c3aae843bccaa642b6a805b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78225f6cc4b7c618bf18841e9b812a09') in 0.019206 seconds 
-  Import took 0.027643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_72.asset
-  artifactKey: Guid(7f47579b5469e724f99aa11e83228d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_72.asset using Guid(7f47579b5469e724f99aa11e83228d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b593e82d2a4c7c2bf02cbfcd763a2249') in 0.023860 seconds 
-  Import took 0.031447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000827 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_95.asset
-  artifactKey: Guid(f35cd272df1344743ba76146c7d0c167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_95.asset using Guid(f35cd272df1344743ba76146c7d0c167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb7a1ebc89af10d6b45489d07ab0998') in 0.019530 seconds 
-  Import took 0.026413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_63.asset
-  artifactKey: Guid(65dd653d275efac418b4619d51a1bf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_63.asset using Guid(65dd653d275efac418b4619d51a1bf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb482db7b0855dd1e3f2f2752ffefc21') in 0.021524 seconds 
-  Import took 0.027476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_38.asset
-  artifactKey: Guid(c616c44f6485fbf4cb70ce614f62c9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_38.asset using Guid(c616c44f6485fbf4cb70ce614f62c9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943f64914326f0f86818a221cc1f4e46') in 0.019399 seconds 
-  Import took 0.026293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001783 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_5.asset
-  artifactKey: Guid(c7065b804df38ec41ac000528d06a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_5.asset using Guid(c7065b804df38ec41ac000528d06a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81c5bf3e4e0f64644c9bf9668febcdf') in 0.022299 seconds 
-  Import took 0.028608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_123.asset
-  artifactKey: Guid(8074d5fb2fcdd7c499bb5aa5628eaf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_123.asset using Guid(8074d5fb2fcdd7c499bb5aa5628eaf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cf2d07536e635d54c8f90af38a0d44') in 0.021258 seconds 
-  Import took 0.028808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_58.asset
-  artifactKey: Guid(2b9a74e6c4d4d3a479cec69a70ceb54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_58.asset using Guid(2b9a74e6c4d4d3a479cec69a70ceb54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243962e8c9d691a3de583d5a6523eba5') in 0.019807 seconds 
-  Import took 0.026897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_131.asset
-  artifactKey: Guid(9913100e82243ee4aa5edeb4ba75d574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_131.asset using Guid(9913100e82243ee4aa5edeb4ba75d574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37006d7599dc8791a80c8aa7f9f600a') in 0.018875 seconds 
-  Import took 0.025151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_79.asset
-  artifactKey: Guid(3a5a1582a423ddc46b823e654b9b4e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_79.asset using Guid(3a5a1582a423ddc46b823e654b9b4e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8462f9657fedbc28bfe264b10431a376') in 0.022124 seconds 
-  Import took 0.029364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_85.asset
-  artifactKey: Guid(192d73198722d5d4985be5fe2beee7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_85.asset using Guid(192d73198722d5d4985be5fe2beee7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029dc07afa457e89ee09c5a961a1ba0f') in 0.018729 seconds 
-  Import took 0.026108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_59.asset
-  artifactKey: Guid(0dfa5aed01bc38e48bf62d3743d633f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_59.asset using Guid(0dfa5aed01bc38e48bf62d3743d633f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a32dca4cccdf6f1f7a1bc0be0761ef') in 0.018223 seconds 
-  Import took 0.024767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_103.asset
-  artifactKey: Guid(13f71cdb0f6ec37459b4331b790a41db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_103.asset using Guid(13f71cdb0f6ec37459b4331b790a41db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d8acf90e214e977f135032b984cf2a') in 0.022594 seconds 
-  Import took 0.028648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_25.asset
-  artifactKey: Guid(a286d729b17f38b45a81c5efe8fc9cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_25.asset using Guid(a286d729b17f38b45a81c5efe8fc9cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea94f9517b0f8019a22438e64b0e74') in 0.021492 seconds 
-  Import took 0.028193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_83.asset
-  artifactKey: Guid(3dcd8cfaac1585e438f76c856b1629d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_83.asset using Guid(3dcd8cfaac1585e438f76c856b1629d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed02a174d015cb1a8a2ce08f0860736') in 0.018821 seconds 
-  Import took 0.025036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_81.asset
-  artifactKey: Guid(2aac18268ad175c4b809385848d31494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_81.asset using Guid(2aac18268ad175c4b809385848d31494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9793f2e615e5da8c6284f8b380b9f2') in 0.020674 seconds 
-  Import took 0.026733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_61.asset
-  artifactKey: Guid(b100b2cf4f525b74cbd3f7d9beab6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_61.asset using Guid(b100b2cf4f525b74cbd3f7d9beab6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc3a19331d8956c50100bc2ab24a72f') in 0.017036 seconds 
-  Import took 0.022502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_105.asset
-  artifactKey: Guid(a91573134c310cc49bd7df0ab6e12dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_105.asset using Guid(a91573134c310cc49bd7df0ab6e12dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9828dd587e1a9d0886524b179f8c7c34') in 0.020539 seconds 
-  Import took 0.026510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_31.asset
-  artifactKey: Guid(2a28c93406673a14b98d57eb134fd673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_31.asset using Guid(2a28c93406673a14b98d57eb134fd673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d91f4e893378a5dc0fad8a339f14f5') in 0.017618 seconds 
-  Import took 0.022782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_92.asset
-  artifactKey: Guid(cddfd5d6be5661145bc8c5da3cc997ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_92.asset using Guid(cddfd5d6be5661145bc8c5da3cc997ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55018fd0d2271a0f67e5053f05924da') in 0.022390 seconds 
-  Import took 0.027525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_119.asset
-  artifactKey: Guid(8684d26cad1f42c4095453053c3d09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_119.asset using Guid(8684d26cad1f42c4095453053c3d09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6c1ff1d9d670c749d404c9fa9cf292') in 0.014934 seconds 
-  Import took 0.019779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_124.asset
-  artifactKey: Guid(076e80f88c11d9349b4f473f8b8e752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_124.asset using Guid(076e80f88c11d9349b4f473f8b8e752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b6bc0db239126474392b72765c79c8') in 0.020346 seconds 
-  Import took 0.025723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_106.asset
-  artifactKey: Guid(d0fa8411afb6d634e896fd75361e6e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_106.asset using Guid(d0fa8411afb6d634e896fd75361e6e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ce6838d5d4586d060e9f9492e6dc6a') in 0.018831 seconds 
-  Import took 0.024760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_113.asset
-  artifactKey: Guid(d30cca6e64ba5db46917f36d0013c522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_113.asset using Guid(d30cca6e64ba5db46917f36d0013c522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6b73ce5f15185bd92f0d757d355467') in 0.019179 seconds 
-  Import took 0.024620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_117.asset
-  artifactKey: Guid(8d0b84b7921bd154e90848f2c8e5bc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_117.asset using Guid(8d0b84b7921bd154e90848f2c8e5bc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eea640786eae419a94aed444cc8311f') in 0.016225 seconds 
-  Import took 0.023248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_97.asset
-  artifactKey: Guid(f1fb9114c22616244a98e6b7cd29c314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_97.asset using Guid(f1fb9114c22616244a98e6b7cd29c314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27b01b27583ed48824c82a90908924a') in 0.021171 seconds 
-  Import took 0.027196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_88.asset
-  artifactKey: Guid(5583a54d576c8f84098959551d87c19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_88.asset using Guid(5583a54d576c8f84098959551d87c19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2211c19d163fe2869f3a644ff0be8f') in 0.019146 seconds 
-  Import took 0.025007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_33.asset
-  artifactKey: Guid(060fb47a92896c54c91498f06bc35f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_33.asset using Guid(060fb47a92896c54c91498f06bc35f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcd971dc9244ce06c9fefd3e14c0df5') in 0.015945 seconds 
-  Import took 0.022939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000967 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_90.asset
-  artifactKey: Guid(ea4920881c056c84db2f37bcb275504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_90.asset using Guid(ea4920881c056c84db2f37bcb275504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7aef8555635564915a7f0eb2ac41e0') in 0.017771 seconds 
-  Import took 0.023560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_80.asset
-  artifactKey: Guid(a069cfce962862f4e87d82bd3f4f623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_80.asset using Guid(a069cfce962862f4e87d82bd3f4f623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2bd9057e3b30848b4ddb5df8ca75e5') in 0.016947 seconds 
-  Import took 0.023932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_107.asset
-  artifactKey: Guid(aa689098dff44a849a777766566fdb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_107.asset using Guid(aa689098dff44a849a777766566fdb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19077f46a79443e221946b80b48f5286') in 0.019520 seconds 
-  Import took 0.024726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_66.asset
-  artifactKey: Guid(4946fa9f02dba83479355e7dfa72d99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_66.asset using Guid(4946fa9f02dba83479355e7dfa72d99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3dc23be40cb7b523f48cd6b01ec491') in 0.021607 seconds 
-  Import took 0.027545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_20.asset
-  artifactKey: Guid(7d0e70940d7213a47b7921f4d03f1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_20.asset using Guid(7d0e70940d7213a47b7921f4d03f1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624757bc730e72b811f134a832c6858f') in 0.016835 seconds 
-  Import took 0.022260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_120.asset
-  artifactKey: Guid(3de881c65b94e02409fc562339e3f57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_120.asset using Guid(3de881c65b94e02409fc562339e3f57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fbd3c9715a2bf5bac21228cb8f7d2f') in 0.021085 seconds 
-  Import took 0.027929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_27.asset
-  artifactKey: Guid(56839566b4b10b440ae646e923ca83a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_27.asset using Guid(56839566b4b10b440ae646e923ca83a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a29d9e3d0655dfb47ab90e263c4d5d2') in 0.021411 seconds 
-  Import took 0.028193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_60.asset
-  artifactKey: Guid(ab6af80c23bb6bf4daf7efc223551a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_60.asset using Guid(ab6af80c23bb6bf4daf7efc223551a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9843449d80468a2609518a7bac06af4b') in 0.019207 seconds 
-  Import took 0.025053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_104.asset
-  artifactKey: Guid(5d664a5ae2d8c7d449120fff8b6e25f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_104.asset using Guid(5d664a5ae2d8c7d449120fff8b6e25f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ed8d51d2932efa3c98fbe48e2aa13e') in 0.020149 seconds 
-  Import took 0.027283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_37.asset
-  artifactKey: Guid(c6fc6534a778d1c47bc2adf3aacfb9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_37.asset using Guid(c6fc6534a778d1c47bc2adf3aacfb9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793d13fc5fbd2353d4a94f0a7acc09d6') in 0.024417 seconds 
-  Import took 0.030605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_57.asset
-  artifactKey: Guid(3dc630e12a44f1d418734c2f75c7834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_57.asset using Guid(3dc630e12a44f1d418734c2f75c7834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e84c1904958c184f89039e2c7f0801') in 0.016206 seconds 
-  Import took 0.020892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_69.asset
-  artifactKey: Guid(4593ae116da3553459bf16a429e33c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_69.asset using Guid(4593ae116da3553459bf16a429e33c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691e982af9473a144b858acda5c17582') in 0.021461 seconds 
-  Import took 0.028394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_98.asset
-  artifactKey: Guid(5a04f6c64774d0c469cc1056dd9dbce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_98.asset using Guid(5a04f6c64774d0c469cc1056dd9dbce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4670e6d0f136c5e1235cd4e74fcc684a') in 0.016468 seconds 
-  Import took 0.021828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_100.asset
-  artifactKey: Guid(6bd1f8dfbe7d5fd408724af36e6050f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_100.asset using Guid(6bd1f8dfbe7d5fd408724af36e6050f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1630c95900907fa7a9001f86bcae9f9b') in 0.018232 seconds 
-  Import took 0.024878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_16.asset
-  artifactKey: Guid(95fe5b615d05b4541af8cbd7fe5bb5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_16.asset using Guid(95fe5b615d05b4541af8cbd7fe5bb5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8c36b389799e17c4de90af47030f65') in 0.016413 seconds 
-  Import took 0.022788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_101.asset
-  artifactKey: Guid(1666c3ed38430e044abfd7d9125a1473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_101.asset using Guid(1666c3ed38430e044abfd7d9125a1473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab31468ce41486575dcd8f69ebb099a') in 0.018850 seconds 
-  Import took 0.025366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_78.asset
-  artifactKey: Guid(e555ef8dc81bf3e48ba07a41f8795262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_78.asset using Guid(e555ef8dc81bf3e48ba07a41f8795262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9141362f669952e7935b83b26f583830') in 0.020198 seconds 
-  Import took 0.026121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_23.asset
-  artifactKey: Guid(19904549c92432d43b8844690de923e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_23.asset using Guid(19904549c92432d43b8844690de923e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a04ca311d4daf15ee6280926a1348e') in 0.020951 seconds 
-  Import took 0.026767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_49.asset
-  artifactKey: Guid(ded0b2bc5738a724caa42518ab30131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_49.asset using Guid(ded0b2bc5738a724caa42518ab30131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334518d46ad8f4929d8d153271a682e4') in 0.018780 seconds 
-  Import took 0.023684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_48.asset
-  artifactKey: Guid(d3ab747133c7c444bb1c51f7d01397ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_48.asset using Guid(d3ab747133c7c444bb1c51f7d01397ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191c3a7b73efcaa97f0601df7108fb78') in 0.017835 seconds 
-  Import took 0.025624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_102.asset
-  artifactKey: Guid(2c33b654a77f8ee46801198d73bc073a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_102.asset using Guid(2c33b654a77f8ee46801198d73bc073a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f349895b1a66d37f04c96db1355c80e') in 0.018015 seconds 
-  Import took 0.023717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_126.asset
-  artifactKey: Guid(31a64d34696380449a5fbd6c029e97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_126.asset using Guid(31a64d34696380449a5fbd6c029e97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e902d9ec5dc3d4b2a5fc77a5a8a9a90') in 0.018451 seconds 
-  Import took 0.024727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_114.asset
-  artifactKey: Guid(02053cbef49d41541b5c08ef255a0cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_114.asset using Guid(02053cbef49d41541b5c08ef255a0cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b807650b61539531cd5218b85c3ef473') in 0.020720 seconds 
-  Import took 0.025743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_43.asset
-  artifactKey: Guid(6cb57f2531f71894281cc2e6faf231c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_43.asset using Guid(6cb57f2531f71894281cc2e6faf231c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3698e9b9c2db2df09169018bced52deb') in 0.017820 seconds 
-  Import took 0.024782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_54.asset
-  artifactKey: Guid(824ab00abf92f234db0d644f92dd0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_54.asset using Guid(824ab00abf92f234db0d644f92dd0503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab552863b2c4201abaf1d3c3f41ce0e9') in 0.017998 seconds 
-  Import took 0.023699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_130.asset
-  artifactKey: Guid(53c2fa50442aba145b7ae7d9f092624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_130.asset using Guid(53c2fa50442aba145b7ae7d9f092624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a65e7459cc93e857c1dd8b3b96a8fe4') in 0.023181 seconds 
-  Import took 0.029413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_67.asset
-  artifactKey: Guid(e9338330f67719d4491ea859cdbcfa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_67.asset using Guid(e9338330f67719d4491ea859cdbcfa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d9addb9ff743dbba311f4ca82f8df3') in 0.016967 seconds 
-  Import took 0.024031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_32.asset
-  artifactKey: Guid(9e4a49c88cd95eb4ea60435ccb5a6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_32.asset using Guid(9e4a49c88cd95eb4ea60435ccb5a6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724ce4777c74326d3493dd7169ea6461') in 0.018418 seconds 
-  Import took 0.023790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_13.asset
-  artifactKey: Guid(6dc05eb7eeb61b24fa5862331c47f01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_13.asset using Guid(6dc05eb7eeb61b24fa5862331c47f01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a6d534d4b792889135a9df7b19620d') in 0.022467 seconds 
-  Import took 0.029841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_75.asset
-  artifactKey: Guid(5745f163fecfee94197471cd7998dd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_75.asset using Guid(5745f163fecfee94197471cd7998dd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372b9b24e5fd6d5687427cfd246c754c') in 0.021236 seconds 
-  Import took 0.029886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_94.asset
-  artifactKey: Guid(9460cf9f540153f48b71cb32d7098ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_94.asset using Guid(9460cf9f540153f48b71cb32d7098ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ed3e8570c480618aa219c690affb65') in 0.022990 seconds 
-  Import took 0.030027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000793 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_7.asset
-  artifactKey: Guid(c15f05e7c3a82ee4ea1447d3c33fc96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_7.asset using Guid(c15f05e7c3a82ee4ea1447d3c33fc96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b974e99ad5f2d3f9bf6963e16b661e') in 0.020821 seconds 
-  Import took 0.027848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_110.asset
-  artifactKey: Guid(c8d5c3ea3402cc149a78f7346a0aa527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_110.asset using Guid(c8d5c3ea3402cc149a78f7346a0aa527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26a867c33b701f7ade813d3a8a3731c') in 0.017782 seconds 
-  Import took 0.025544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_19.asset
-  artifactKey: Guid(36668a237ca6f0f45adf13fa6e9d37d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_19.asset using Guid(36668a237ca6f0f45adf13fa6e9d37d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ef8259738adc3319ed81045b808d17') in 0.020738 seconds 
-  Import took 0.029553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_99.asset
-  artifactKey: Guid(482e43fb2770ee94b919ad75d8957e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_99.asset using Guid(482e43fb2770ee94b919ad75d8957e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97a3a0d3cbc6f274733077fed0417af') in 0.023058 seconds 
-  Import took 0.030411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_47.asset
-  artifactKey: Guid(481fc8e5108c86943b0bfa9e4f25f909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_47.asset using Guid(481fc8e5108c86943b0bfa9e4f25f909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7993a3202b8575dcaaf6db2c2771b513') in 0.019907 seconds 
-  Import took 0.026691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_50.asset
-  artifactKey: Guid(eaed709f26b602e4ca45354355984d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_50.asset using Guid(eaed709f26b602e4ca45354355984d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4deb999a29b74a0299efd1d4015442a') in 0.019673 seconds 
-  Import took 0.027017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_8.asset
-  artifactKey: Guid(6be5b126301d1184ba9964cd451e3a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_8.asset using Guid(6be5b126301d1184ba9964cd451e3a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96e31fbb8ebb85513f9d6fe236a6724') in 0.019158 seconds 
-  Import took 0.024941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_9.asset
-  artifactKey: Guid(10e02e70ad13b0a4c885a8523ba5bd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_9.asset using Guid(10e02e70ad13b0a4c885a8523ba5bd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c69f4a90cebb10567d880dfba066333') in 0.020320 seconds 
-  Import took 0.026543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_42.asset
-  artifactKey: Guid(af83474813323c64e89860bd943413b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_42.asset using Guid(af83474813323c64e89860bd943413b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ef7a66348341b032a9c0e03f64c141') in 0.019803 seconds 
-  Import took 0.027861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_36.asset
-  artifactKey: Guid(d417245216338034885bd5a78c1e10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_36.asset using Guid(d417245216338034885bd5a78c1e10ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea9d16ce1f60451bfba499b4c4fab49') in 0.017540 seconds 
-  Import took 0.024835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_108.asset
-  artifactKey: Guid(5870a00b413b76f429407c0b26bd21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_108.asset using Guid(5870a00b413b76f429407c0b26bd21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1d8b8c56d9dff2dd5039dc9f5c5c98') in 0.020333 seconds 
-  Import took 0.026587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_30.asset
-  artifactKey: Guid(3dc423f7a9d22e545ab4e33b471768b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_30.asset using Guid(3dc423f7a9d22e545ab4e33b471768b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc09629fa3c17167fd497975d9f4eec') in 0.020839 seconds 
-  Import took 0.025766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/Tiles/sky_34.asset
-  artifactKey: Guid(b2895292a2a110a41a7ab48518820067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/Tiles/sky_34.asset using Guid(b2895292a2a110a41a7ab48518820067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5e419ba78aafb245051c234a6d089a') in 0.017626 seconds 
-  Import took 0.023593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.126086 seconds.
-  path: Assets/GameAssets/Mountain Level Assets/TilePalette/Mountain.prefab
-  artifactKey: Guid(9dfdf657125b2864faa9a80f3e73e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameAssets/Mountain Level Assets/TilePalette/Mountain.prefab using Guid(9dfdf657125b2864faa9a80f3e73e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee83c16307aa1b16e07de336208a94a0') in 0.091504 seconds 
-  Import took 0.097420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.059708 seconds.
-  path: Assets/MagicCliffsArtwork/clouds.png
-  artifactKey: Guid(e5bd0397035914333a8d430a1a5d7d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MagicCliffsArtwork/clouds.png using Guid(e5bd0397035914333a8d430a1a5d7d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee021b1a0d2e47562c17ef6c69bd2ae') in 1.088912 seconds 
-  Import took 1.095390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1856.320441 seconds.
-  path: Assets/MagicCliffsArtwork/objects.png
-  artifactKey: Guid(c568092d7452f4cf9b5a6e629a61dcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MagicCliffsArtwork/objects.png using Guid(c568092d7452f4cf9b5a6e629a61dcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f035161de9ebaea2b531d46df7198c08') in 0.362660 seconds 
-  Import took 0.368372 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003171 seconds.
+Registered in 0.003027 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.301 seconds
+- Completed reload, in  1.227 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1302ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (439ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.7 MB.
-System memory in use after: 98.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2575.
-Total: 3.867100 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.065100 ms MarkObjects: 3.514500 ms  DeleteObjects: 0.026100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 615.831049 seconds.
-  path: Assets/Scenes/LV3.unity
-  artifactKey: Guid(9411baa84a744694c947ac6ca9999a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LV3.unity using Guid(9411baa84a744694c947ac6ca9999a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a108f0ec96ed925373a519ba29cfdd') in 0.035588 seconds 
-  Import took 0.042370 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003175 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1308ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1227ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1110ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (414ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (313ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2550.
+Total: 3.516000 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.066400 ms MarkObjects: 3.190400 ms  DeleteObjects: 0.039300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2222ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1825ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (650ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 8.325100 ms (FindLiveObjects: 0.466200 ms CreateObjectMapping: 0.224200 ms MarkObjects: 7.596900 ms  DeleteObjects: 0.034100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003238 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (312ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.7 MB.
-System memory in use after: 98.8 MB.
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2578.
-Total: 4.407200 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.106400 ms MarkObjects: 3.986700 ms  DeleteObjects: 0.042400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 3.056300 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.082100 ms MarkObjects: 2.761100 ms  DeleteObjects: 0.019200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1948,350 +391,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003372 seconds.
+Registered in 0.015604 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.068 seconds
+- Completed reload, in  1.217 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2069ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (1217ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1718ms)
-			LoadAssemblies (206ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (593ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (638ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.7 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 7.229800 ms (FindLiveObjects: 0.488100 ms CreateObjectMapping: 0.204000 ms MarkObjects: 6.445100 ms  DeleteObjects: 0.090500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003395 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1383ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1124ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (429ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2584.
-Total: 4.169400 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.075200 ms MarkObjects: 3.759800 ms  DeleteObjects: 0.047200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003657 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1199ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1012ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (352ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (403ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2587.
-Total: 4.210800 ms (FindLiveObjects: 0.210400 ms CreateObjectMapping: 0.076000 ms MarkObjects: 3.860800 ms  DeleteObjects: 0.062500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003862 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.9 MB.
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2590.
-Total: 3.316900 ms (FindLiveObjects: 0.198800 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.961600 ms  DeleteObjects: 0.059100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003605 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1238ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1050ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (339ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (417ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2593.
-Total: 3.584200 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.088600 ms MarkObjects: 3.228600 ms  DeleteObjects: 0.061100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1393.926263 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle
-  artifactKey: Guid(c1d0ce572c8ea4b1ea53e67b0ef57efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle using Guid(c1d0ce572c8ea4b1ea53e67b0ef57efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1cf7d010dc7ba19d82fd78cd787baa') in 0.028285 seconds 
-  Import took 0.033639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.142723 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/enemies/octopus
-  artifactKey: Guid(16df94498616a4be8b381aed6eed3ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/enemies/octopus using Guid(16df94498616a4be8b381aed6eed3ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cade73c6cefc06da6234f0a518573cf2') in 0.016632 seconds 
-  Import took 0.021443 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003618 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1083ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (881ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.8 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2596.
-Total: 4.345100 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.163900 ms MarkObjects: 3.821500 ms  DeleteObjects: 0.075400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 3.624300 ms (FindLiveObjects: 0.237800 ms CreateObjectMapping: 0.101800 ms MarkObjects: 3.261200 ms  DeleteObjects: 0.022000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
