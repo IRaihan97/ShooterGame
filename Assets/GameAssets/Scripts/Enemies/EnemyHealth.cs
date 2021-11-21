@@ -34,14 +34,14 @@ public class EnemyHealth : MonoBehaviour
         {
             
             currentHealth -= damage;
-            CameraShaker.Instance.ShakeOnce(4f, 5f, 0.5f, .1f);
+            CameraShaker.Instance.ShakeOnce(5f, 15f, 0.1f, 0.5f);
         }
         
         
 
         if (currentHealth <= 0)
         {
-            CameraShaker.Instance.ShakeOnce(10f, 10f, .1f, 1.1f);
+            CameraShaker.Instance.ShakeOnce(30f, 30f, .1f, 0.5f);
             makeDead();
         }
     }

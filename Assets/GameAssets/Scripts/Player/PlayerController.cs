@@ -17,13 +17,15 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     public Transform groundCheck;
     public float jumpVelocity;
+    int extraJumps;
+    public int extraJumpsValue;
 
     //shooting
     public Transform muzzle;
     public GameObject bullet;
     public float fireRate;
     float nextFire = 0f;
-
+    
     public float knockBack;//force
     public float knockBackCount;//time counter
     public float knockBackLenght;
@@ -50,13 +52,23 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //check if character is grounded
-        
-        if (grounded && Input.GetAxis("Jump") > 0)
+        if (grounded==true)
         {
-            grounded = false;
-            myAnim.SetBool("isGrounded", grounded);
-            //Pushes the body (adding jumpvelocity to y axis)
-            myBody.AddForce(new Vector2(0, jumpVelocity));
+            extraJumps = extraJumpsValue;
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && extraJumps > 0)
+        {
+                
+                //myAnim.SetBool("isGrounded", grounded);
+                //Pushes the body (adding jumpvelocity to y axis)
+                //myBody.AddForce(new Vector2(0, jumpVelocity));
+            myBody.velocity = Vector2.up * jumpVelocity;
+            extraJumps--;
+
+        }
+        else if (Input.GetKeyDown(KeyCode.Space) && extraJumps == 0 && grounded == true)
+        {
+            myBody.velocity = Vector2.up * jumpVelocity;
         }
 
 
