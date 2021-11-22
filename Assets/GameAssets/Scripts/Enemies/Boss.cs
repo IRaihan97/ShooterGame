@@ -8,12 +8,15 @@ public class Boss : MonoBehaviour
 
     public bool isFlipped = true;
     public bool enraged = false;
-    public Animator animator;
+    Animator animator;
+    public GameObject bullet;
+    public GameObject muzzle;
 
     
 
     public void lookAtPlayer()
     {
+        if (playerObj == null) return;
         Transform player = playerObj.transform;
         Vector3 boss = transform.localScale;
         boss.z *= -1f;
@@ -32,17 +35,41 @@ public class Boss : MonoBehaviour
         }
     }
 
-    public void waitTime()
+    public void normalPattern()
     {
         animator = GetComponentInChildren<Animator>();
-        StartCoroutine(waitingTime(animator));
+        StartCoroutine(pattern1(animator));
     }
 
-    IEnumerator waitingTime(Animator animator)
+    public void enragedPattern()
     {
-        yield return new WaitForSecondsRealtime(2f);
+        animator = GetComponentInChildren<Animator>();
+        StartCoroutine(pattern2(animator));
+
+    }
+
+
+    IEnumerator pattern1(Animator animator)
+    {
+        yield return new WaitForSecondsRealtime(1f);
+            int num = Random.Range(1, 3);
+            if (num == 1)
+            {
+                animator.SetBool("Shoot", true);
+            }
+            else if (num == 2)
+            {
+                animator.SetBool("RunShoot", true);
+                //yield return new WaitForSecondsRealtime(1f);
+                //animator.GetComponentInParent<Rigidbody2D>().velocity = Vector2.zero;
+            }
+    }
+
+    IEnumerator pattern2(Animator animator)
+    {
+        yield return new WaitForSecondsRealtime(1f);
         int num = Random.Range(1, 4);
-        if(num == 1)
+        if (num == 1)
         {
             animator.SetBool("Run", true);
         }
@@ -54,11 +81,12 @@ public class Boss : MonoBehaviour
         }
         else if(num == 3)
         {
-            animator.SetBool("RunShoot", true);
+            animator.SetBool("Shoot", true);
         }
-        
-        
     }
-    
 
+    public void shootProjectile()
+    {
+        Instantiate(bullet, new Vector3(muzzle.transform.position.x, muzzle.transform.position.y, -1), muzzle.transform.rotation);     
+    }
 }

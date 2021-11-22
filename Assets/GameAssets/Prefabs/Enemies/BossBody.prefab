@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1123138191087209102}
   - component: {fileID: 3564682770835296586}
   - component: {fileID: 6474427084333900429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BossBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,6 @@ MonoBehaviour:
   playerObj: {fileID: 0}
   isFlipped: 1
   enraged: 0
-  animator: {fileID: 0}
 --- !u!1 &9075921531853557845
 GameObject:
   m_ObjectHideFlags: 0
@@ -85,9 +84,9 @@ GameObject:
   - component: {fileID: 4276095137286521937}
   - component: {fileID: 5521432364033638870}
   - component: {fileID: 7767405505796244537}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public float enemyMaxHealth;
 
-    private float currentHealth;
+    public float currentHealth;
 
     //public AudioClip deathSound;
 
@@ -54,4 +54,5 @@ public class EnemyHealth : MonoBehaviour
         Instantiate(enemyDeathFX, transform.position, transform.rotation);
         //if (canDrop) { Instantiate(drop, transform.position, transform.rotation); }
     }
+
 }

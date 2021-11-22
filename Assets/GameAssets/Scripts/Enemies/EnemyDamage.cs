@@ -50,8 +50,5 @@ public class EnemyDamage : MonoBehaviour
         Rigidbody2D pushBody = pushedObject.gameObject.GetComponent<Rigidbody2D>();
         pushBody.velocity = Vector2.zero;
         pushBody.AddForce(pushDir, ForceMode2D.Force);
-        
-        
-        
     }
 }

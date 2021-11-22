@@ -26,6 +26,7 @@ public class Hit : MonoBehaviour
     //get the other item that collided with this gameobject
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other == null) return;
         if (other.gameObject.layer == LayerMask.NameToLayer("Shootable"))
         {
             myPC.removeForce();

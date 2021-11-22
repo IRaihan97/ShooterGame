@@ -9,12 +9,12 @@ public class EnemyController : MonoBehaviour
     Animator enemyAnimations;
 
     public float movementDuration;
-    float startingTime;
-    bool isMoving;
+    //float startingTime;
+    //bool isMoving;
 
-    bool canFlip = true;
+    //bool canFlip = true;
     bool facingRight = false;
-    float flipTime = 5f;
+    //float flipTime = 5f;
     float nextFlipChance = 0f;
 
     public GameObject enemyGraphic;
@@ -59,7 +59,7 @@ public class EnemyController : MonoBehaviour
         if (Time.time > nextFlipChance)
         {
             Debug.Log("Initial Flip Chance: " + nextFlipChance);
-            enemyBody.velocity = (new Vector2(0.1f, 1) * enemySpeed);
+            enemyBody.velocity = (new Vector2(0, 1) * enemySpeed);
             
             if(Time.time > (nextFlipChance + movementDuration) / 2)
             {
