@@ -67,7 +67,7 @@ public class Boss : MonoBehaviour
 
     IEnumerator pattern2(Animator animator)
     {
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(3f);
         int num = Random.Range(1, 4);
         if (num == 1)
         {

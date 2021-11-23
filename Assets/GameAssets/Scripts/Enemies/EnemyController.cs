@@ -9,12 +9,7 @@ public class EnemyController : MonoBehaviour
     Animator enemyAnimations;
 
     public float movementDuration;
-    //float startingTime;
-    //bool isMoving;
-
-    //bool canFlip = true;
     bool facingRight = false;
-    //float flipTime = 5f;
     float nextFlipChance = 0f;
 
     public GameObject enemyGraphic;
@@ -34,55 +29,21 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         if (pattern == 1) movePattern();
-        else if (pattern == 2) {jumpPattern();}
-        else if (pattern == 3) playerFollow();
-        
-
-
-        /*if (startingTime <= Time.time)
-        {
-            //Add force to opposite diraction if facingright
-            enemyAnimations.SetBool("isCharging", true);//changes animation to charging
-        }
-        enemyAnimations.SetBool("isCharging", false);*///changes animation to charging
-        
-    }
-
-    private void playerFollow()
-    {
-        throw new NotImplementedException();
+        if (pattern == 2) jumpPattern();     
     }
 
     private void jumpPattern()
     {
-        Debug.Log("Current Time" + Time.time);
+        if (enemyAnimations == null) return;
         if (Time.time > nextFlipChance)
         {
-            Debug.Log("Initial Flip Chance: " + nextFlipChance);
+            enemyAnimations.SetTrigger("Jump");
             enemyBody.velocity = (new Vector2(0, 1) * enemySpeed);
-            
-            if(Time.time > (nextFlipChance + movementDuration) / 2)
-            {
-                Debug.Log("Stopping Velocity");
-                enemyBody.velocity = Vector2.zero;
-            }
-            Debug.Log("Flip Chance Addition: " + nextFlipChance);
             nextFlipChance = Time.time + movementDuration;
         }
 
 
     }
-
-/*    private void stopVelocity()
-    {
-        float startTime = nextFlipChance + movementDuration;
-        if(Time.time > startTime)
-        {
-            Debug.Log("Stop Velocity");
-            enemyBody.velocity = Vector2.zero;
-            startTime = Time.time + nextFlipChance + movementDuration;
-        }
-    }*/
 
     private void movePattern()
     {

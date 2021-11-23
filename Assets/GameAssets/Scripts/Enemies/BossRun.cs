@@ -14,11 +14,11 @@ public class BossRun : StateMachineBehaviour
         enemyRB = animator.GetComponentInParent<Rigidbody2D>();
         if (boss.isFlipped)
         {
-            enemyRB.velocity = new Vector2(2f, 0) * 20f;
+            enemyRB.velocity = new Vector2(2f, 0) * 30f;
         }
         else
         {
-            enemyRB.velocity = new Vector2(-2f, 0) * 20f;
+            enemyRB.velocity = new Vector2(-2f, 0) * 30f;
         }
     }
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

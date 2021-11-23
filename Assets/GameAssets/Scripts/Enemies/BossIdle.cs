@@ -14,11 +14,15 @@ public class BossIdle : StateMachineBehaviour
         animator.GetComponentInParent<Rigidbody2D>().velocity = Vector2.zero;
         boss = animator.GetComponentInParent<Boss>();
         enemyHealth = animator.GetComponent<EnemyHealth>();
-        if(enemyHealth.currentHealth >= enemyHealth.enemyMaxHealth / 2)
+        if(enemyHealth.currentHealth < enemyHealth.enemyMaxHealth / 2)
+        {
+            boss.enraged = true;
+        }
+        if(!boss.enraged)
         {
             boss.normalPattern();
         }
-        if(enemyHealth.currentHealth < enemyHealth.enemyMaxHealth / 2)
+        if(boss.enraged)
         {
             boss.enragedPattern();
         }

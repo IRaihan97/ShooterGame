@@ -11,9 +11,13 @@ GameObject:
   - component: {fileID: 1243251895088155919}
   - component: {fileID: 1243251895088155918}
   - component: {fileID: 1243251895088155917}
-  m_Layer: 0
+  - component: {fileID: 2996320243586314427}
+  - component: {fileID: 5399885578714680835}
+  - component: {fileID: 7547404179244038250}
+  - component: {fileID: 4709212916810495585}
+  m_Layer: 7
   m_Name: Jumper
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,6 +106,78 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2996320243586314427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243251895088155916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 934ef4b3483bdb74d8f2635245347f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMaxHealth: 10
+  currentHealth: 0
+  enemyDeathFX: {fileID: 4897810788968544632, guid: 6ae07711db7230347b4804de3a48c65f, type: 3}
+--- !u!114 &5399885578714680835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243251895088155916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5cc7f9fc39e674fbabcdc85ea45400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  damageRate: 2
+  pushBackForce: 0
+--- !u!61 &7547404179244038250
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243251895088155916}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.021493673, y: -0.11821473}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.9375, y: 2}
+    newSize: {x: 0.47, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0347686, y: 1.785064}
+  m_EdgeRadius: 0
+--- !u!58 &4709212916810495585
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243251895088155916}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.18269557}
+  serializedVersion: 2
+  m_Radius: 0.49079102
 --- !u!1 &7669419466581830123
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +188,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6309124779976909241}
   - component: {fileID: 3414496319578003568}
-  m_Layer: 0
+  - component: {fileID: 8274846644276091784}
+  m_Layer: 7
   m_Name: JumperBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +205,7 @@ Transform:
   m_GameObject: {fileID: 7669419466581830123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1243251895088155919}
   m_Father: {fileID: 0}
@@ -149,9 +226,25 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 7
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &8274846644276091784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7669419466581830123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19fdeea2210561149827c83414058994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 30
+  movementDuration: 3
+  enemyGraphic: {fileID: 1243251895088155916}
+  pattern: 2
