@@ -136,6 +136,8 @@ MonoBehaviour:
   enemyMaxHealth: 10
   currentHealth: 0
   enemyDeathFX: {fileID: 4897810788968544632, guid: 6ae07711db7230347b4804de3a48c65f, type: 3}
+  goToMenu: {fileID: 0}
+  healthDrop: {fileID: 6182909251058029666, guid: c63c5c5ef7669604daaf6b9b99d13528, type: 3}
 --- !u!61 &7732841775740287777
 BoxCollider2D:
   m_ObjectHideFlags: 0

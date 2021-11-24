@@ -69,6 +69,7 @@ MonoBehaviour:
   enemySpeed: 10
   movementDuration: 0.3
   enemyGraphic: {fileID: 3998679837195449086}
+  pattern: 0
 --- !u!1 &3998679837195449086
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +212,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMaxHealth: 5
+  currentHealth: 0
   enemyDeathFX: {fileID: 4897810788968544632, guid: 6ae07711db7230347b4804de3a48c65f, type: 3}
+  goToMenu: {fileID: 0}
+  healthDrop: {fileID: 6182909251058029666, guid: c63c5c5ef7669604daaf6b9b99d13528, type: 3}
 --- !u!114 &3998679837195449080
 MonoBehaviour:
   m_ObjectHideFlags: 0

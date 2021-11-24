@@ -12,7 +12,10 @@ public class EnemyHealth : MonoBehaviour
     //public AudioClip deathSound;
 
     public GameObject enemyDeathFX;
-    
+
+    public GoToMenu goToMenu;
+
+    public GameObject healthDrop;
 
     AudioSource asour;
     // Start is called before the first frame update
@@ -53,6 +56,21 @@ public class EnemyHealth : MonoBehaviour
         Destroy(gameObject.transform.parent.gameObject);
         Instantiate(enemyDeathFX, transform.position, transform.rotation);
         //if (canDrop) { Instantiate(drop, transform.position, transform.rotation); }
+        if(gameObject.tag == "Enemy")
+        {
+            int rand = Random.Range(1, 4);
+            if(rand == 3)
+            {
+                Instantiate(healthDrop, transform.position, transform.rotation);
+            }
+
+           
+        }
+        if (gameObject.tag == "Boss")
+        {
+            goToMenu.goToMainMenu();
+        }
     }
+
 
 }

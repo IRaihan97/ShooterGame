@@ -11,8 +11,10 @@ public class Boss : MonoBehaviour
     Animator animator;
     public GameObject bullet;
     public GameObject muzzle;
+    public GoToMenu goToMenu;
 
-    
+
+
 
     public void lookAtPlayer()
     {

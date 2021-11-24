@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using EZCameraShake;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth;
-    float currentHealth;
+    static float currentHealth = 5f;
+    private float levelStartHealth;
 
     PlayerController playerControl;
     Rigidbody2D playerBody;
@@ -20,9 +22,11 @@ public class PlayerHealth : MonoBehaviour
 
     bool damaged = false;
     // Start is called before the first frame update
+    public Text lifeCounter;
     void Start()
     {
-        currentHealth = maxHealth;
+
+        levelStartHealth = currentHealth;
         playerControl = GetComponent<PlayerController>();
         playerAnim = GetComponent<Animator>();
         playerBody = GetComponent<Rigidbody2D>();
@@ -31,8 +35,10 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        lifeCounter.text = currentHealth.ToString();
         if (damaged)
         {
+            CameraShaker.Instance.ShakeOnce(10f, 10f, 0.5f, 0.5f);
             playerAnim.SetTrigger("Damaged");
         }
         damaged = false;
@@ -58,6 +64,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void makeDead()
     {
+        lifeCounter.text = "0";
         //Instantiate(deathFX, transform.position, transform.rotation);
         Destroy(gameObject);
 
@@ -66,10 +73,20 @@ public class PlayerHealth : MonoBehaviour
         //gameOver.gameObject.SetActive(true);
         //Animator gameOverAnim = gameOver.GetComponent<Animator>();
         //gameOverAnim.SetTrigger("gameOver");
+        currentHealth = levelStartHealth;
         restart.restartTheGame();
+        
 
     }
 
-    
+    public void addHealth(float healthUp)
+    {
+        currentHealth += healthUp;
+        
+        
+
+
+    }
+
 
 }

@@ -6,9 +6,12 @@ public class BossProjectileController : MonoBehaviour
 {
     Rigidbody2D myBody;
     public float projectileSpeed;
+    AudioSource aSource;
 
     private void Awake()
     {
+        aSource = gameObject.GetComponent<AudioSource>();
+        aSource.volume = 0.4f;
         //Get local gameobject rigidbody
         myBody = GetComponent<Rigidbody2D>();
         if (transform.localRotation.y > 0)

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     //shooting
     public Transform muzzle;
     public GameObject bullet;
+    public GameObject chargedBullet;
     public float fireRate;
     float nextFire = 0f;
     
@@ -30,6 +32,10 @@ public class PlayerController : MonoBehaviour
     public float knockBackCount;//time counter
     public float knockBackLenght;
     public bool knockFromRight;
+
+    public bool canCharge;
+    public GameObject chargeEffect;
+    public float chargeTimer=0f;
 
     // Start is called before the first frame update
     void Start()
@@ -80,12 +86,42 @@ public class PlayerController : MonoBehaviour
             myAnim.SetFloat("Speed", Mathf.Abs(move));
             myBody.velocity = new Vector2(move * maxSpeed, myBody.velocity.y);
 
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.J) && canCharge)
             {
+                /*myAnim.SetTrigger("Shoot");
+                shoot();*/
                 myAnim.SetTrigger("Shoot");
-                shoot();
+                chargeTimer += Time.deltaTime;
+            }
+
+            if ((Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.J)) && chargeTimer >= 0.5f && canCharge)
+            {
+
+                chargeEffect.SetActive(true);
 
             }
+            if ((Input.GetKeyUp(KeyCode.Mouse0) || Input.GetKeyUp(KeyCode.J)) && chargeTimer >= 2f && canCharge ){
+                chargeTimer = 0;
+                chargeShot();
+                if (canCharge == true) 
+                {
+                    chargeEffect.SetActive(false);
+                }
+                
+
+            }
+            else if ((Input.GetKeyUp(KeyCode.Mouse0) || Input.GetKeyUp(KeyCode.J) && chargeTimer < 2f)){
+                
+                shoot();
+                chargeTimer = 0;
+                if (canCharge == true)
+                {
+                    chargeEffect.SetActive(false);
+                }
+
+
+            }
+
         }
         else
         {
@@ -131,6 +167,7 @@ public class PlayerController : MonoBehaviour
 
     private void shoot()
     {
+
         //Instatiating bullet object based on current time
         if (Time.time > nextFire)
         {
@@ -146,5 +183,26 @@ public class PlayerController : MonoBehaviour
             }
 
         }    
+    }
+
+    private void chargeShot()
+    {
+        //Instatiating bullet object based on current time
+        if (Time.time > nextFire)
+        {
+
+            nextFire = Time.time + fireRate;
+            if (facingRight)
+            {
+                CameraShaker.Instance.ShakeOnce(20f, 20f, 0.5f, 0.1f);
+                Instantiate(chargedBullet, muzzle.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            }
+            else
+            {
+                CameraShaker.Instance.ShakeOnce(20f, 20f, 0.5f, 0.1f);
+                Instantiate(chargedBullet, muzzle.position, Quaternion.Euler(new Vector3(0, 0, 180)));//flip if not facing right
+            }
+
+        }
     }
 }

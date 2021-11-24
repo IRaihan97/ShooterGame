@@ -33,7 +33,7 @@ public class Hit : MonoBehaviour
             Destroy(gameObject);
             Instantiate(particleFX, new Vector3(transform.position.x, transform.position.y, -1), transform.rotation);
             //checking if bullet collided with enemy
-            if (other.tag == "Enemy")
+            if (other.tag == "Enemy" || other.tag == "Boss")
             {
                 //Getting health and applying damange from collided enemy
                 EnemyHealth enemyHealth = other.gameObject.GetComponent<EnemyHealth>();
