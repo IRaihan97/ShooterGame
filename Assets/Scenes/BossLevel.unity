@@ -49535,8 +49535,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 344118145}
     - target: {fileID: 349224672218996537, guid: d7aad36dc8b46064cb3fdb940033ee2b, type: 3}
+      propertyPath: healthDrop
+      value: 
+      objectReference: {fileID: 6182909251058029666, guid: c63c5c5ef7669604daaf6b9b99d13528, type: 3}
+    - target: {fileID: 349224672218996537, guid: d7aad36dc8b46064cb3fdb940033ee2b, type: 3}
       propertyPath: enemyMaxHealth
-      value: 20
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1123138191087209102, guid: d7aad36dc8b46064cb3fdb940033ee2b, type: 3}
       propertyPath: m_RootOrder
@@ -49609,6 +49613,10 @@ PrefabInstance:
     - target: {fileID: 3564682770835296586, guid: d7aad36dc8b46064cb3fdb940033ee2b, type: 3}
       propertyPath: m_CollisionDetection
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4276095137286521937, guid: d7aad36dc8b46064cb3fdb940033ee2b, type: 3}
+      propertyPath: damage
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6474427084333900429, guid: d7aad36dc8b46064cb3fdb940033ee2b, type: 3}
       propertyPath: bullet

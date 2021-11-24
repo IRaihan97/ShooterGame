@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AddHealth
     - Boss
     - BossIdle
     - BossJump
@@ -33,6 +34,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -152,9 +154,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5406}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 5486}
     - Class: 114
-      Script: {instanceID: 5634}
+      Script: {instanceID: 5602}
+    - Class: 114
+      Script: {instanceID: 5636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -263,7 +267,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5440}
     - Class: 114
-      Script: {instanceID: 5634}
+      Script: {instanceID: 5486}
+    - Class: 114
+      Script: {instanceID: 5636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -370,7 +376,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5440}
     - Class: 114
-      Script: {instanceID: 5634}
+      Script: {instanceID: 5486}
+    - Class: 114
+      Script: {instanceID: 5636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1113,6 +1121,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 17146de4667a7178d8e68114cff3d826
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddHealth
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1147,16 +1161,10 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RestartGame
-  - hash:
-      serializedVersion: 2
-      Hash: 17146de4667a7178d8e68114cff3d826
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AddHealth
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/LV1.unity
   - Assets/Scenes/LV2.unity
   - Assets/Scenes/BossLevel.unity
-  playerPath: C:/Users/tsuna/Desktop/GameV0.1/CS3005Assignment.exe
+  playerPath: C:/Users/tsuna/Desktop/E4R7H/CS3005Assignment.exe
