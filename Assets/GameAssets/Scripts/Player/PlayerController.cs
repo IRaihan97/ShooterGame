@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
 
             }
             else if ((Input.GetKeyUp(KeyCode.Mouse0) || Input.GetKeyUp(KeyCode.J) && chargeTimer < 2f)){
-                
+                myAnim.SetTrigger("Shoot");
                 shoot();
                 chargeTimer = 0;
                 if (canCharge == true)
