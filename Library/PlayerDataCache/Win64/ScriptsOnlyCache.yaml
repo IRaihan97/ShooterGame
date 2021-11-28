@@ -29,11 +29,11 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -1164,4 +1164,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/LV1.unity
   - Assets/Scenes/LV2.unity
   - Assets/Scenes/BossLevel.unity
-  playerPath: C:/Users/tsuna/Desktop/E4R7H/CS3005Assignment.exe
+  playerPath: C:/Users/tsuna/Desktop/E4R7H/E4R7H.exe
